@@ -1,0 +1,38 @@
+body{
+    position: relative;
+}
+.body-bg-image {
+    background-image: url("../images/bg-body-field.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+}
+header {
+    padding-top: 70px;
+    padding-bottom: 150px;
+}
+h1{
+    font-family: "Yuji Mai", serif;
+    font-weight: 400;
+    font-style:normal;
+    font-weight: 500;
+    font-size: 90pt;
+    text-shadow: 0 0 10px white;
+}
+
+.card-student{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.card-student img {
+    width: 100%;
+}
